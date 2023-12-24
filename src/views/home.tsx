@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from "../components/card/button";
 // import Card from "./../components/card/card";
 
 
@@ -17,10 +18,10 @@ class Home extends React.Component<any, any>{
               the morning
             </p>
 
-            {/*<div className=" flex flex-row gap-6">*/}
-            {/*  <Button title="ADD TO CART" />*/}
-            {/*  <Button title="MORE MENU" />*/}
-            {/*</div>*/}
+            <div className=" flex flex-row gap-6">
+              <Button title="ADD TO CART" />
+              <Button title="MORE MENU" />
+            </div>
           </div>
 
           <div className="relative">
