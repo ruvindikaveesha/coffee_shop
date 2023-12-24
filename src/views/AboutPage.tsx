@@ -1,5 +1,6 @@
 // AboutPage.tsx
 import React from 'react';
+import Button from "../components/card/button";
 
 const AboutPage: React.FC = () => {
     return (
@@ -10,10 +11,12 @@ const AboutPage: React.FC = () => {
                 <div className=" w-full lg:w-2/4">
                     <img className=" rounded-lg" src="/src/assets/about.jpg " alt="img" />
                 </div>
+
                 <div className=" w-full lg:w-2/4 p-4 space-y-3">
                     <h2 className=" font-semibold text-3xl">
                         What Makes Our Coffee Special?
                     </h2>
+
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi
                         quaerat quia quasi beatae et iste, tempora voluptatum corporis sit
@@ -26,7 +29,7 @@ const AboutPage: React.FC = () => {
                         Enim, vero natus.
                     </p>
 
-                    {/*<Button title="Learn More" />*/}
+                    <Button title="Learn More" />
                 </div>
             </div>
         </div>
