@@ -1,22 +1,22 @@
-// AboutPage.tsx
 import React from 'react';
 import Button from "../components/card/button";
 
-const AboutPage: React.FC = () => {
-    return (
-        <div className=" min-h-screen flex flex-col items-center justify-center lg:px-32 px-5 bg-backgroundColor">
-            <h1 className=" font-semibold text-center text-4xl lg:mt-14 mt-24 mb-8">About Us</h1>
 
-            <div className=" flex flex-col lg:flex-row items-center gap-5">
-                <div className=" w-full lg:w-2/4">
-                    <img className=" rounded-lg" src="/src/assets/about.jpg " alt="img" />
+class MenuPage extends React.Component<any, any>{
+
+    render(): React.ReactElement<any, string | React.JSXElementConstructor<any>> | string | number | Iterable<React.ReactNode> | React.ReactPortal | boolean | any | null | undefined {
+        return(
+        <div className="min-h-screen flex flex-col  lg:px-32 px-5 bg-backgroundColor">
+            <h1 className="font-semibold text-center text-4xl lg:mt-14 mt-24 mb-8">About Us</h1>
+
+            <div className="flex flex-col lg:flex-row items-center gap-5">
+                <div className="w-full lg:w-2/4">
+                    <img className="rounded-lg" src="/src/assets/about.jpg" alt="img"/>
                 </div>
-
-                <div className=" w-full lg:w-2/4 p-4 space-y-3">
-                    <h2 className=" font-semibold text-3xl">
+                <div className="w-full lg:w-2/4 p-4 space-y-3  items-center justify-center">
+                    <h2 className="font-semibold text-3xl items-center justify-center">
                         What Makes Our Coffee Special?
                     </h2>
-
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi
                         quaerat quia quasi beatae et iste, tempora voluptatum corporis sit
@@ -29,11 +29,17 @@ const AboutPage: React.FC = () => {
                         Enim, vero natus.
                     </p>
 
-                    <Button title="Learn More" />
+                    <div className=" flex flex-row gap-6">
+                        <Button title="Learn more" />
+                    </div>
+
                 </div>
             </div>
         </div>
-    );
-};
 
-export default AboutPage;
+        );
+    }
+
+}
+
+export default MenuPage;

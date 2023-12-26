@@ -14,7 +14,6 @@ class Header extends React.Component<any, any> {
             <li><Link to={'/AboutPage'}>ABOUT US</Link></li>
             <li><Link to={'/menu'}>MENU</Link></li>
             <li><Link to={'/product'}>PRODUCT</Link></li>
-            <li><Link to={'/editor'}>CONTACT</Link></li>
             <li><Link to={'/signin'}>LOGIN</Link></li>
           </ul>
         </nav>

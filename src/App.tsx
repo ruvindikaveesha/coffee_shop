@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from "./views/navbar";
 import Header from "./components/layout/header";
 import Footer from "./components/layout/footer";
 import Home from "./views/home";
@@ -34,7 +33,7 @@ class App extends React.Component<Props, State> {
                         <Route path={"/menu"} element={<Menu/>}/>
 
                     </Routes>
-                    <Footer/>
+
                 </BrowserRouter>
             </div>
         );

@@ -1,65 +1,28 @@
 import React from 'react';
 import Card from "./../components/card/card";
-
-interface Data {
-    id: number,
-    title: string,
-    content: string
-}
-
-const data: Data[] = [
-    {
-        id: 1,
-        title: "IJSE",
-        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A impedit ipsa quae tenetur totam. Ad architecto asperiores culpa cupiditate doloremque, dolores minima numquam perferendis quaerat, quasi sequi similique tempore voluptas."
-    },
-    {
-        id: 2,
-        title: "GDSE",
-        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A impedit ipsa quae tenetur totam. Ad architecto asperiores culpa cupiditate doloremque, dolores minima numquam perferendis quaerat, quasi sequi similique tempore voluptas."
-    },
-    {
-        id: 3,
-        title: "Javascript",
-        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A impedit ipsa quae tenetur totam. Ad architecto asperiores culpa cupiditate doloremque, dolores minima numquam perferendis quaerat, quasi sequi similique tempore voluptas."
-    },
-    {
-        id: 4,
-        title: "Typescript",
-        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A impedit ipsa quae tenetur totam. Ad architecto asperiores culpa cupiditate doloremque, dolores minima numquam perferendis quaerat, quasi sequi similique tempore voluptas."
-    },
-    {
-        id: 5,
-        title: "Java",
-        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A impedit ipsa quae tenetur totam. Ad architecto asperiores culpa cupiditate doloremque, dolores minima numquam perferendis quaerat, quasi sequi similique tempore voluptas."
-    },
-    {
-        id: 6,
-        title: "Go",
-        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A impedit ipsa quae tenetur totam. Ad architecto asperiores culpa cupiditate doloremque, dolores minima numquam perferendis quaerat, quasi sequi similique tempore voluptas."
-    },
-];
+import img1 from "../assets/menu1.jpg";
+import img2 from "../assets/menu2.jpg";
+import img3 from "../assets/menu3.jpg";
+import img4 from "../assets/menu4.jpg";
+import img5 from "../assets/menu5.jpg";
+import img6 from "../assets/menu6.jpg";
 
 
-class Home extends React.Component<any, any>{
+    const Menu = () => {
+        return (
+            <div className=" min-h-screen flex flex-col justify-center lg:px-32 px-5 bg-backgroundColor  ">
 
-    render(): React.ReactElement<any, string | React.JSXElementConstructor<any>> | string | number | Iterable<React.ReactNode> | React.ReactPortal | boolean | any | null | undefined {
-        return(
-            <section>
-                <div
-                    className={'grid 2xl:grid-cols-5 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 w-fit relative m-auto'}>
-
-                    {
-                        data.map((r: Data, index: number) => {
-                            return <Card title={r.title} content={r.content}/>
-                        })
-                    }
-
+                <div className=" flex flex-wrap pb-8 gap-8 justify-center mt-10">
+                    <Card img={img1} title="Espresso" />
+                    <Card img={img2} title="Cappuccino" />
+                    <Card img={img3} title="Latte" />
+                    <Card img={img4} title="Americano" />
+                    <Card img={img5} title="Macchiato" />
+                    <Card img={img6} title="Doppio" />
                 </div>
-            </section>
+            </div>
         );
-    }
 
 }
 
-export default Home;
+export default Menu;
