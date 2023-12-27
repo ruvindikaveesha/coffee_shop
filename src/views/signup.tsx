@@ -54,7 +54,7 @@ function Signup(): JSX.Element {
               optional={false}/>
           </div>
 
-          <div className={'text-center mt-5'}>
+          <div className={'text-center mt-5 bg-amber-950'}>
             <button className={'main-btn'}>Sign Up</button>
           </div>
 
