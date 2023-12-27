@@ -15,12 +15,11 @@ class Header extends React.Component<any, any> {
             <li><Link to={'/AboutPage'}>ABOUT US</Link></li>
             <li><Link to={'/menu'}>MENU</Link></li>
             <li><Link to={'/review'}>REVIEW</Link></li>
-            <li><Link to={'/signin'}>LOGIN</Link></li>
-          </ul>
+            <div>
+              <li><Link to={'/signin'}>LOGIN</Link></li>
+            </div>
 
-          <div>
-            <Button title="LOGIN" />
-          </div>
+          </ul>
         </nav>
       </header>
     );

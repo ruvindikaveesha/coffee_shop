@@ -7,8 +7,8 @@ import img4 from "../assets/menu4.jpg";
 import img5 from "../assets/menu5.jpg";
 import img6 from "../assets/menu6.jpg";
 
-
-    const Menu = () => {
+// const Menu = () => {
+function  Menu():JSX.Element {
         return (
 
             <div className=" min-h-screen flex flex-col justify-center lg:px-32 px-5  bg-orange-100">
