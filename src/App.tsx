@@ -1,12 +1,10 @@
 import React from 'react';
 import Header from "./components/layout/header";
-import Footer from "./components/layout/footer";
 import Home from "./views/home";
 import AboutPage from "./views/AboutPage";
 import Login from "./views/login";
 import Signup from "./views/signup";
 import Menu from "./views/menu";
-import product from "./views/product"
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Review from "./views/review";
 

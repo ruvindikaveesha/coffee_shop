@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import Button from "../card/button";
 
 class Header extends React.Component<any, any> {
 
@@ -16,6 +17,10 @@ class Header extends React.Component<any, any> {
             <li><Link to={'/review'}>REVIEW</Link></li>
             <li><Link to={'/signin'}>LOGIN</Link></li>
           </ul>
+
+          <div>
+            <Button title="LOGIN" />
+          </div>
         </nav>
       </header>
     );
