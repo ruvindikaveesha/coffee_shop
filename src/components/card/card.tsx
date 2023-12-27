@@ -7,7 +7,7 @@ const Card = (props) => {
     return (
         <div className=" w-full lg:w-1/4 bg-white p-3 rounded-lg">
             <div className="flex flex-wrap justify-center">
-                <div className="w-3/12 sm:w-4/12 px-1">
+                <div className="w-3/6 sm:w-4/8 px-1">
                     <img src={props.img}
                          alt="..." className="shadow rounded-full max-w-full h-auto align-middle border-none"/>
                 </div>
@@ -21,8 +21,9 @@ const Card = (props) => {
                     <BsStarFill className=" text-brightColor" />
                     <BsStarHalf className=" text-brightColor" />
                 </div>
-                <h3 className=" font-semibold text-lg">$15.99</h3>
-                <Button title="Add To Card" />
+                <h3 className=" font-semibold text-lg" >{props.price}</h3>
+                {/*<h3 className=" font-semibold text-lg" >$15.99</h3>*/}
+                <Button title="Order Now" />
             </div>
         </div>
     );

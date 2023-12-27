@@ -13,16 +13,16 @@ function  Menu():JSX.Element {
 
             <div className=" min-h-screen flex flex-col justify-center lg:px-32 px-5  bg-orange-100">
                 <h1 className=" font-semibold text-center text-4xl lg:mt-14 mt-24 mb-8">
-                    Our Products
+                    Our Menu
                 </h1>
 
                 <div className=" flex flex-wrap pb-8 gap-8 justify-center">
-                    <Card img={img1} title="Espresso" />
-                    <Card img={img2} title="Cappuccino" />
-                    <Card img={img3} title="Latte" />
-                    <Card img={img4} title="Americano" />
-                    <Card img={img5} title="Mocchito" />
-                    <Card img={img6} title="Doppio" />
+                    <Card img={img1} title="Espresso" price="150Rs"/>
+                    <Card img={img2} title="Cappuccino" price="180Rs" />
+                    <Card img={img3} title="Latte" price="150Rs" />
+                    <Card img={img4} title="Americano" price="175Rs"  />
+                    <Card img={img5} title="Mocchito" price="120Rs"  />
+                    <Card img={img6} title="Doppio" price="100Rs"  />
                 </div>
             </div>
 

@@ -15,9 +15,7 @@ class Header extends React.Component<any, any> {
             <li><Link to={'/AboutPage'}>ABOUT US</Link></li>
             <li><Link to={'/menu'}>MENU</Link></li>
             <li><Link to={'/review'}>REVIEW</Link></li>
-            <div>
-              <li><Link to={'/signin'}>LOGIN</Link></li>
-            </div>
+            <li><Link to={'/signin'} className={'"border-solid'} >LOGIN</Link></li>
 
           </ul>
         </nav>
