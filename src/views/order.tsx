@@ -1,15 +1,16 @@
+import React from "react";
 import { Link } from "react-router-dom";
 import Input from "./../components/input/input";
 
-function Signup(): JSX.Element {
+function Order(): JSX.Element {
     return(
         <section className={'flex justify-center items-center p-5'}>
             <div className={'w-fit p-10 border shadow-xl rounded-xl'}>
 
-                <img src="/src/assets/login img.png" title="logo" alt="logo" className={'w-24 m-auto'}/>
+                {/*<img src="/src/assets/login img.png" title="logo" alt="logo" className={'w-24 m-auto'}/>*/}
 
                 <div className={'text-2xl font-bold text-amber-950 text-center mt-5'}>
-                    Sign Up
+                    Order Now
                 </div>
 
                 <div className={'mt-5 min-w-[400px]'}>
@@ -19,23 +20,16 @@ function Signup(): JSX.Element {
                         <Input
                             type={'text'}
                             name={'name'}
-                            label={'First Name'}
-                            placeholder={'Enter your first name'}
-                            optional={false}/>
-
-                        <Input
-                            type={'text'}
-                            name={'lname'}
-                            label={'Last Name'}
-                            placeholder={'Enter your last name'}
+                            label={'Name'}
+                            placeholder={'Enter your name'}
                             optional={false}/>
 
                     </div>
 
                     <Input
                         type={'text'}
-                        name={'username'}
-                        label={'Username'}
+                        name={'phone number'}
+                        label={'phone number'}
                         placeholder={'Enter your username'}
                         optional={false}/>
 
@@ -67,4 +61,4 @@ function Signup(): JSX.Element {
     );
 }
 
-export default Signup;
+export default Order;
