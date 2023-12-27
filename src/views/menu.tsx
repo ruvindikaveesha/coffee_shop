@@ -11,7 +11,7 @@ import img6 from "../assets/menu6.jpg";
     const Menu = () => {
         return (
 
-            <div className=" min-h-screen flex flex-col justify-center lg:px-32 px-5 bg-white ">
+            <div className=" min-h-screen flex flex-col justify-center lg:px-32 px-5  bg-orange-200">
                 <h1 className=" font-semibold text-center text-4xl lg:mt-14 mt-24 mb-8">
                     Our Products
                 </h1>
