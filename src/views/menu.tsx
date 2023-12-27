@@ -20,6 +20,8 @@ import img6 from "../assets/menu6.jpg";
                     <Card img={img5} title="Macchiato" />
                     <Card img={img6} title="Doppio" />
                 </div>
+
+
             </div>
         );
 
