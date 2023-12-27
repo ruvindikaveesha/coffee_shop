@@ -7,7 +7,7 @@ import img3 from "/src/assets/pic1.png";
 const Review = () => {
     return (
         <div className=" min-h-screen flex flex-col justify-center lg:px-32 px-5 bg-orange-100  ">
-            <h1 className=" font-semibold text-center text-4xl lg:mt-14 mt-24 ">
+            <h1 className=" font-semibold text-center text-4xl lg:mt-14 mt-24 font-bold text-amber-950 italic ">
                 Customer's Reviews
             </h1>
 

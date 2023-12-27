@@ -7,6 +7,7 @@ import Signup from "./views/signup";
 import Menu from "./views/menu";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Review from "./views/review";
+import Footer from "./components/layout/footer";
 
 
 interface Props {
@@ -30,6 +31,7 @@ class App extends React.Component<Props, State> {
                         <Route path={"/signup"} element={<Signup/>}/>
                         <Route path={"/menu"} element={<Menu/>}/>
                         <Route path={"/review"} element={<Review/>}/>
+
 
                     </Routes>
 

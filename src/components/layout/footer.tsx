@@ -1,6 +1,6 @@
 import React from "react";
 
-const Footer = () => {
+function Footer(): JSX.Element {
   return (
       <div className=" bg-gradient-to-r from-[#FFDCAB] to-[#AB6B2E] text-black rounded-t-3xl mt-8 md:mt-0">
         <div className="flex flex-col md:flex-row justify-between p-8 md:px-32 px-5">
