@@ -11,12 +11,12 @@ import img6 from "../assets/menu6.jpg";
 function  Menu():JSX.Element {
         return (
 
-            <div className=" min-h-screen flex flex-col justify-center lg:px-32 px-5  bg-orange-100">
+            <div className=" min-h-screen flex flex-col justify-center lg:px-32 px-5  bg-orange-100 font-bold text-amber-950 italic">
                 <h1 className=" font-semibold text-center text-4xl lg:mt-14 mt-24 mb-8">
                     Our Menu
                 </h1>
 
-                <div className=" flex flex-wrap pb-8 gap-8 justify-center">
+                <div className=" flex flex-wrap pb-8 gap-8 justify-center font-bold text-amber-950 italic">
                     <Card img={img1} title="Espresso" price="150Rs"/>
                     <Card img={img2} title="Cappuccino" price="180Rs" />
                     <Card img={img3} title="Latte" price="150Rs" />
