@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Input from "./../components/input/input";
 import Button from "../components/card/button";
+import Card from "./../components/card/card";
 
 function Order(): JSX.Element {
     return(
@@ -54,7 +55,7 @@ function Order(): JSX.Element {
                 </div>
 
                 <div className={'text-center mt-5'}>
-                    <Button title="Order Now" /> <Link to={'/order'}><span className={'text-amber-700 underline'}>Sign in now</span></Link>
+                    <Button  title="Order Now" /> <Link to={'/order'}><span className={'text-amber-700 underline'}>Order Now</span></Link>
                 </div>
 
             </div>
