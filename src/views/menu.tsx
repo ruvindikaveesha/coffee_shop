@@ -10,19 +10,22 @@ import img6 from "../assets/menu6.jpg";
 
     const Menu = () => {
         return (
-            <div className=" min-h-screen flex flex-col justify-center lg:px-32 px-5 bg-backgroundColor  ">
 
-                <div className=" flex flex-wrap pb-8 gap-8 justify-center mt-10">
+            <div className=" min-h-screen flex flex-col justify-center lg:px-32 px-5 bg-white ">
+                <h1 className=" font-semibold text-center text-4xl lg:mt-14 mt-24 mb-8">
+                    Our Products
+                </h1>
+
+                <div className=" flex flex-wrap pb-8 gap-8 justify-center">
                     <Card img={img1} title="Espresso" />
                     <Card img={img2} title="Cappuccino" />
                     <Card img={img3} title="Latte" />
                     <Card img={img4} title="Americano" />
-                    <Card img={img5} title="Macchiato" />
+                    <Card img={img5} title="Mocchito" />
                     <Card img={img6} title="Doppio" />
                 </div>
-
-
             </div>
+
         );
 
 }

@@ -5,9 +5,8 @@ import Home from "./views/home";
 import AboutPage from "./views/AboutPage";
 import Login from "./views/login";
 import Signup from "./views/signup";
-import Editor from "./views/order";
 import Menu from "./views/menu";
-import Product from "./views/product"
+import product from "./views/product"
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 
@@ -30,7 +29,6 @@ class App extends React.Component<Props, State> {
                         <Route path={"/AboutPage"} element={<AboutPage/>}/>
                         <Route path={"/signin"} element={<Login/>}/>
                         <Route path={"/signup"} element={<Signup/>}/>
-                        <Route path={"/editor"} element={<Editor/>}/>
                         <Route path={"/menu"} element={<Menu/>}/>
                         <Route path={"/product"} element={<product/>}/>
 
