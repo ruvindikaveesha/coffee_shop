@@ -30,7 +30,7 @@ function Order(): JSX.Element {
                         type={'text'}
                         name={'phone number'}
                         label={'phone number'}
-                        placeholder={'Enter your username'}
+                        placeholder={'Phone Number'}
                         optional={false}/>
 
                     <Input
