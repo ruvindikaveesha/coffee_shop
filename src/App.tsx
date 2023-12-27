@@ -8,6 +8,7 @@ import Signup from "./views/signup";
 import Menu from "./views/menu";
 import product from "./views/product"
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Review from "./views/review";
 
 
 interface Props {
@@ -30,7 +31,7 @@ class App extends React.Component<Props, State> {
                         <Route path={"/signin"} element={<Login/>}/>
                         <Route path={"/signup"} element={<Signup/>}/>
                         <Route path={"/menu"} element={<Menu/>}/>
-                        <Route path={"/product"} element={<product/>}/>
+                        <Route path={"/review"} element={<Review/>}/>
 
                     </Routes>
 
