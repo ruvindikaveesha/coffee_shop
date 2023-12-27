@@ -11,7 +11,7 @@ class MenuPage extends React.Component<any, any>{
 
             <div className="flex flex-col lg:flex-row items-center gap-5">
                 <div className="w-full lg:w-2/4">
-                    <img className="rounded-lg" src="/src/assets/about.jpg" alt="img"/>
+                    <img className="rounded-lg" src="/src/assets/coffe.jpg" alt="img"/>
                 </div>
                 <div className="w-full lg:w-2/4 p-4 space-y-3  items-center justify-center">
                     <h2 className="font-semibold text-3xl items-center justify-center font-bold text-amber-950 italic">

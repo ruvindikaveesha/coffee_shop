@@ -13,7 +13,7 @@ class Input extends React.Component<Props, any> {
     return(
       <div className={'m-2'}>
         <label htmlFor={this.props.name} className={'block'}>{this.props.label} {!this.props.optional ? <span className="text-red-600">*</span> : null}</label>
-        <input type={this.props.type} id={this.props.name} placeholder={this.props.placeholder} className={'block border border-green-300 outline-none focus:border-green-600 h-10 w-full'}/>
+        <input type={this.props.type} id={this.props.name} placeholder={this.props.placeholder} className={'block border border-amber-950 outline-none focus:border-amber-950 h-10 w-full'}/>
       </div>
     );
   }
