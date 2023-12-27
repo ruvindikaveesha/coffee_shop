@@ -34,26 +34,26 @@ function Order(): JSX.Element {
                         optional={false}/>
 
                     <Input
-                        type={'email'}
-                        name={'email'}
-                        label={'Email'}
-                        placeholder={'Enter your email'}
+                        type={'address'}
+                        name={'address'}
+                        label={'address'}
+                        placeholder={'Enter your Address'}
                         optional={false}/>
 
                     <Input
-                        type={'password'}
-                        name={'password'}
-                        label={'Password'}
-                        placeholder={'Enter your password'}
+                        type={'email'}
+                        name={'email'}
+                        label={'email'}
+                        placeholder={'Enter your Email'}
                         optional={false}/>
                 </div>
 
                 <div className={'text-center mt-5 bg-amber-950'}>
-                    <button className={'main-btn'}>Sign Up</button>
+                    <button className={'main-btn bg-amber-950'}>Sign Up</button>
                 </div>
 
                 <div className={'text-center mt-5'}>
-                    Do have an account? <Link to={'/signin'}><span className={'text-amber-700 underline'}>Sign in now</span></Link>
+                    Do have an account? <Link to={'/order'}><span className={'text-amber-700 underline'}>Sign in now</span></Link>
                 </div>
 
             </div>
