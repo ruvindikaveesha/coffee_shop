@@ -4,6 +4,7 @@ import Home from "./views/home";
 import AboutPage from "./views/AboutPage";
 import Login from "./views/login";
 import Signup from "./views/signup";
+import Order from "./views/order";
 import Menu from "./views/menu";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Review from "./views/review";
@@ -31,6 +32,7 @@ class App extends React.Component<Props, State> {
                         <Route path={"/signup"} element={<Signup/>}/>
                         <Route path={"/menu"} element={<Menu/>}/>
                         <Route path={"/review"} element={<Review/>}/>
+                        <Route path={"/order"} element={<Order/>}/>
 
 
                     </Routes>

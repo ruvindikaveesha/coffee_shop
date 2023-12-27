@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Input from "./../components/input/input";
+import Button from "../components/card/button";
 
 function Order(): JSX.Element {
     return(
@@ -49,11 +50,11 @@ function Order(): JSX.Element {
                 </div>
 
                 <div className={'text-center mt-5 bg-amber-950'}>
-                    <button className={'main-btn bg-amber-950'}>Sign Up</button>
+                    <button className={'main-btn bg-amber-950'}>Order</button>
                 </div>
 
                 <div className={'text-center mt-5'}>
-                    Do have an account? <Link to={'/order'}><span className={'text-amber-700 underline'}>Sign in now</span></Link>
+                    <Button title="Order Now" /> <Link to={'/order'}><span className={'text-amber-700 underline'}>Sign in now</span></Link>
                 </div>
 
             </div>
