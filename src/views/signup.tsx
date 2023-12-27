@@ -6,7 +6,7 @@ function Signup(): JSX.Element {
       <section className={'flex justify-center items-center p-5'}>
         <div className={'w-fit p-10 border shadow-xl rounded-xl'}>
 
-          <img src="https://logodix.com/logo/1597040.png" title="logo" alt="logo" className={'w-24 m-auto'}/>
+          <img src="/src/assets/login img.png" title="logo" alt="logo" className={'w-24 m-auto'}/>
 
           <div className={'text-2xl font-bold text-amber-950 text-center mt-5'}>
             Sign Up

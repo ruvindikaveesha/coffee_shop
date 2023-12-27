@@ -9,7 +9,7 @@ class Login extends React.Component<any, any> {
       <section className={'flex justify-center items-center p-5'}>
         <div className={'w-fit p-24 border shadow-xl rounded-xl'}>
 
-          <img src="https://logodix.com/logo/1180109.jpg" title="logo" alt="logo" className={'w-24 m-auto'}/>
+          <img src="/src/assets/login img.png" title="logo" alt="logo" className={'w-24 m-auto'}/>
 
           <div className={'text-2xl font-bold text-amber-950 text-center mt-5'}>
             Sign In
@@ -34,7 +34,7 @@ class Login extends React.Component<any, any> {
           </div>
 
           <div className={'text-center mt-5'}>
-            <button className={'main-btn'}>Sign In</button>
+            <button className={'main-btn '}>Sign In</button>
           </div>
 
           <div className={'text-center mt-5'}>
