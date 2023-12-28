@@ -15,6 +15,8 @@ class Header extends React.Component<any, any> {
             <li><Link to={'/menu'}>MENU</Link></li>
             <li><Link to={'/review'} >REVIEW</Link></li>
             <li className={'border-yellow-950'}><Link to={'/signin'} >LOGIN</Link></li>
+            <li className={'border-yellow-950'}><Link to={'/order'} >ORDER NOW</Link></li>
+
           </ul>
         </nav>
       </header>

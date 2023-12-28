@@ -2,6 +2,8 @@ import React from "react";
 import Button from "../card/Button";
 import { BsStarHalf } from "react-icons/bs";
 import { BsStarFill } from "react-icons/bs";
+import { FaRegPlusSquare } from "react-icons/fa";
+import {Link} from "react-router-dom";
 
 const Card = (props) => {
     return (
@@ -23,7 +25,16 @@ const Card = (props) => {
                 </div>
                 <h3 className=" font-semibold text-lg font-bold text-amber-950 italic" >{props.price}</h3>
                 {/*<h3 className=" font-semibold text-lg" >$15.99</h3>*/}
-                <Button title="Order Now" />
+                <div>
+                    <span className=" flex items-center bg-[#FFDCAB] px-3 py-2 rounded-full cursor-pointer">
+            <FaRegPlusSquare size={20} />
+          </span>
+                </div>
+
+
+                <div className={'px-6 py-1 border-2 border-white bg-[#FFDCAB] hover:text-[#AB6B2E] transition-all rounded-full'}>
+                    <button ><Link to={'/order'} >Order Now</Link></button>
+                </div>
             </div>
         </div>
     );

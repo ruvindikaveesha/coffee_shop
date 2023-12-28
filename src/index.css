@@ -4,10 +4,10 @@
 
 @layer components {
     .main-btn {
-        @apply bg-green-600 text-white px-5 py-3 hover:bg-green-400
+        @apply bg-amber-950 text-white px-5 py-3 hover:bg-amber-950
     }
     .second-btn {
-        @apply bg-gray-400 text-gray-600 px-5 py-3 hover:bg-gray-300
+        @apply bg-gray-200 text-gray-600 px-5 py-3 hover:bg-gray-300
     }
 }
 

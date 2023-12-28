@@ -54,9 +54,6 @@ function Order(): JSX.Element {
                     <button className={'main-btn bg-amber-950'}>Order</button>
                 </div>
 
-                <div className={'text-center mt-5'}>
-                    <Button  title="Order Now" /> <Link to={'/order'}><span className={'text-amber-700 underline'}>Order Now</span></Link>
-                </div>
 
             </div>
         </section>
