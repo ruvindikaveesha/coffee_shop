@@ -28,7 +28,7 @@ class Home extends React.Component<any, any>{
 
             <div>
             <span className=" flex items-center  px-1 py-3 rounded-full space-x-4  ">
-            <FaFacebook  size={20} /> <RiInstagramFill size={20} /> <FaTwitter  size={20}/> <FaTiktok size={20} />  </span>
+            <FaFacebook  size={30} /> <RiInstagramFill size={30} /> <FaTwitter  size={30}/> <FaTiktok size={30} />  </span>
 
           </div>
 
