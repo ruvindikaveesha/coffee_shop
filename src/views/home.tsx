@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from "../components/card/button";
-import {FaFacebook, } from "react-icons/fa";
+import {FaFacebook  } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 import { FaTwitter } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa";
@@ -27,8 +27,8 @@ class Home extends React.Component<any, any>{
             </div>
 
             <div>
-            <span className=" flex items-center  px-10 py-3 rounded-full ">
-            <FaFacebook  size={20} /> <RiInstagramFill size={20} /> <FaTwitter  size={20}/>  </span>
+            <span className=" flex items-center  px-1 py-3 rounded-full space-x-4  ">
+            <FaFacebook  size={20} /> <RiInstagramFill size={20} /> <FaTwitter  size={20}/> <FaTiktok size={20} />  </span>
 
           </div>
 
