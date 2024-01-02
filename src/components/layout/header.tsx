@@ -14,10 +14,12 @@ class Header extends React.Component<any, any> {
             <li><Link to={'/AboutPage'}>ABOUT US</Link></li>
             <li><Link to={'/menu'}>MENU</Link></li>
             <li><Link to={'/review'} >REVIEW</Link></li>
-            <li className={'border-yellow-950'}><Link to={'/signin'} >LOGIN</Link></li>
-            <li className={'border-yellow-950'}><Link to={'/order'} >ORDER NOW</Link></li>
+            {/*<li className={'border-yellow-950'}><Link to={'/signin'} >LOGIN</Link></li>*/}
+            {/*<li className={'border-yellow-950'}><Link to={'/order'} >ORDER NOW</Link></li>*/}</ul>
 
-          </ul>
+          <div className={'px-6 py-1 border-2 border-white bg-[#FFDCAB] hover:text-[#AB6B2E] transition-all rounded-full'}>
+            <button ><Link to={'/signin'} >Login</Link></button>
+          </div>
         </nav>
       </header>
     );
